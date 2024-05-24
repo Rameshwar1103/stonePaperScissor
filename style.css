@@ -1,0 +1,88 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem; /* Adjusted for better layout */
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainBody {
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#icons {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center; /* Changed to space-around for equal spacing */
+    padding: 1rem; /* Added padding for spacing */
+}
+
+.circularIcon {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+    margin:10px;
+    background-size: cover; /* Ensure the image covers the div */
+    background-position: center; /* Center the image */
+}
+
+#stone {
+    background-image: url("Screenshot 2024-05-23 223539.png");
+}
+
+#paper {
+    background-image: url("Screenshot 2024-05-23 223922.png");
+}
+
+#scissor {
+    background-image: url("Screenshot 2024-05-23 223627.png");
+}
+
+#points {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem; /* Add margin for spacing */
+}
+#you,#comp{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin:10px;
+}
+
+.youCount,.compCount{
+    font-size : 2.5rem;
+}
+
+#selectChoice {
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-top: 2rem; /* Add margin for spacing */
+    font-size: 2rem;
+}
+
+
